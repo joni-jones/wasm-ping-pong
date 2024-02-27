@@ -15,9 +15,9 @@ The implementation is in the file [src/lib.rs](./src/lib.rs)
 - To compile the actor and generate a signed Webassembly module, type `wash build`.
 - Run the wasmCloud host with `wash up`
 - In your browser at `localhost:4000`, in the **Actors** table, use the dropdown to start the actor **From File** and select the built and signed module from step 1
-- Start the HTTP server provider **From Registry** with OCI reference `wasmcloud.azurecr.io/httpserver:0.17.0`
-- Link your hello actor to the HTTP server provider with a link value of `address=0.0.0.0:8080`
-- `curl localhost:8080` to see your response, or follow the browser instructions below
+- Start the HTTP server provider **From Registry** with OCI reference `wasmcloud.azurecr.io/httpserver:0.19.0`
+- Link your hello actor to the HTTP server provider with a link value of `address=0.0.0.0:8081`
+- `curl localhost:8081` to see your response, or follow the browser instructions below
 
 ### In a browser
 

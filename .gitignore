@@ -1,1 +1,5 @@
 .idea
+ping/target
+ping/build
+ping/keys
+ping/.idea
